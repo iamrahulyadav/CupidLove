@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civProfile"
+                android:layout_width="@dimen/value_30"
+                android:layout_height="@dimen/value_30"
+                android:layout_margin="@dimen/value_5"
+                android:src="@color/black"
+                app:civ_border_color="@color/light_orange"
+                app:civ_border_width="@dimen/value_1" />
+
+            <ProgressBar
+                android:id="@+id/loader"
+                android:layout_width="@dimen/value_10"
+                android:layout_height="@dimen/value_10"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="vertical">
+
+                <com.example.cupidlove.customview.textview.TextViewRegular
+                    android:id="@+id/tvName"
+                    style="@style/txt_white_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kaushalparmar" />
+
+                <com.example.cupidlove.customview.textview.TextViewRegular
+                    android:id="@+id/tvDistance"
+                    style="@style/txt_white_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/value_3"
+                    android:text="@string/lessthenmileaway" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/value_10"
+                android:layout_marginLeft="@dimen/value_10"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flDislike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_circle_white" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_dislike" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/value_5"
+                    android:layout_marginRight="@dimen/value_5"
+                    android:layout_marginStart="@dimen/value_5"
+                    android:layout_marginEnd="@dimen/value_5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_circle_white" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_like" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/value_20"
+        android:layout_marginRight="@dimen/value_20"
+        android:layout_marginStart="@dimen/value_20"
+        android:layout_marginEnd="@dimen/value_20"
+        android:src="@drawable/header_line" />
+
+</LinearLayout>

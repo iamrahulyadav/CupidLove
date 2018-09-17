@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llPhotoSelection"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/value_5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/value_4"
+            android:layout_weight="0.67"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llImageOne"
+                android:layout_width="0dp"
+                android:layout_weight="0.67"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/value_2"
+                android:layout_marginEnd="@dimen/value_2"
+                android:background="@drawable/kids_border">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/value_1"
+                        android:background="@color/image_bg"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/one" />
+
+                    <ImageView
+                        android:id="@+id/ivImageOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/value_1"
+                        android:scaleType="centerCrop" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/ivImageOne"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_margin="@dimen/value_1"-->
+                    <!--android:scaleType="centerCrop" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civEditOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:layout_marginRight="@dimen/value_4"
+                        android:layout_marginEnd="@dimen/value_4"
+                        android:layout_marginTop="@dimen/value_4"
+                        app:srcCompat="@drawable/ic_pencil" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/value_2"
+                android:layout_marginStart="@dimen/value_2"
+                android:layout_weight="0.33"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llImageTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/value_2"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/kids_border">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:background="@color/image_bg"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/two" />
+
+                        <ImageView
+                            android:id="@+id/ivImageTwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:scaleType="centerCrop" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civEditTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginRight="@dimen/value_4"
+                            android:layout_marginEnd="@dimen/value_4"
+                            android:layout_marginTop="@dimen/value_4"
+                            app:srcCompat="@drawable/ic_pencil_small" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llImageThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/value_2"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/kids_border"
+                    android:scaleType="center">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:background="@color/image_bg"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/three" />
+
+                        <ImageView
+                            android:id="@+id/ivImageThree"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:scaleType="centerCrop" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civEditThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginRight="@dimen/value_4"
+                            android:layout_marginEnd="@dimen/value_4"
+                            android:layout_marginTop="@dimen/value_4"
+                            app:srcCompat="@drawable/ic_pencil_small" />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/value_4"
+            android:layout_marginRight="@dimen/value_4"
+            android:layout_marginStart="@dimen/value_4"
+            android:layout_marginEnd="@dimen/value_4"
+            android:layout_weight="0.33"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/value_2"
+                android:layout_marginEnd="@dimen/value_2"
+                android:layout_weight="0.67">
+
+                <LinearLayout
+                    android:id="@+id/llImageFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/value_2"
+                    android:layout_marginEnd="@dimen/value_2"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/kids_border">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:background="@color/image_bg"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/four" />
+
+                        <ImageView
+                            android:id="@+id/ivImageFour"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:scaleType="centerCrop" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civEditFour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginRight="@dimen/value_4"
+                            android:layout_marginEnd="@dimen/value_4"
+                            android:layout_marginTop="@dimen/value_4"
+                            app:srcCompat="@drawable/ic_pencil_small" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llImageFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/value_2"
+                    android:layout_marginStart="@dimen/value_2"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/kids_border">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:background="@color/image_bg"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/five" />
+
+                        <ImageView
+                            android:id="@+id/ivImageFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:scaleType="centerCrop" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civEditFive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginRight="@dimen/value_4"
+                            android:layout_marginEnd="@dimen/value_4"
+                            android:layout_marginTop="@dimen/value_4"
+                            app:srcCompat="@drawable/ic_pencil_small" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/value_2"
+                android:layout_marginStart="@dimen/value_2"
+                android:layout_weight="0.33"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llImageSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/kids_border">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:background="@color/image_bg"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/six" />
+
+                        <ImageView
+                            android:id="@+id/ivImageSix"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/value_1"
+                            android:scaleType="centerCrop" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civEditSix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginRight="@dimen/value_4"
+                            android:layout_marginEnd="@dimen/value_4"
+                            android:layout_marginTop="@dimen/value_4"
+                            app:srcCompat="@drawable/ic_pencil_small" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

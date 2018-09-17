@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">CupidLove</string> //Enter Your AppName
+    <string name="facebook_app_id">Facebook App id</string>
+    <string name="fb_login_protocol_scheme">fb(Facebook App id)</string>
+
+    <string name="answer_of_question">प्रश्न का कोई जवाब दें</string>
+    <string name="select_one_image">आप केवल गैलरी से 1 छवियों का चयन कर सकते हैं।</string>
+    <string name="select_six_image">आप केवल गैलरी से 6 छवियों का चयन कर सकते हैं।</string>
+    <string name="select_any_image">किसी भी छवि का चयन करें</string>
+    <string name="special_char_not_allowed">विशेष चरित्र अनुमत नहीं है</string>
+
+    <string name="footer">\@CupidLove 2018 | सर्वाधिकार सुरक्षित</string>
+
+    <string name="login_with_facebook">फेसबुक के साथ लॉगिन करे</string>
+    <string name="login_canceled">फेसबुक लॉगिन रद्द कर दिया गया है।</string>
+    <string name="login_with_email">ईमेल के साथ लॉगिन करें</string>
+    <string name="tap_to_change">फोटो बदलने के लिए टैप करें</string>
+    <string name="no_inrenate_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="there_was_an_error_communicating_with_cupidlove_please_contact_customer_service">संचार में एक त्रुटि हुई थी। कृपया \n ग्राहक सेवा से संपर्क करें।</string>
+    <string name="we_had_trouble_trying_to_connect_please_try_again_when_your_connection_signal_is_stronge">हमें कनेक्ट करने की कोशिश करने में परेशानी थी। \n कृपया \n कनेक्शन सिग्नल मजबूत होने पर पुनः प्रयास करें</string>
+
+
+    <string name="already_have_an_Account">क्या आपके पास पहले से एक खाता मौजूद है? लॉगिन करने के लिए टैप करें</string>
+    <string name="offline">ऑफलाइन</string>
+    <string name="sign_in">साइन इन करें</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="password">पारण शब्द</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="dont_have_an_account">खाता नहीं है? साइनअप पर टैप करें</string>
+    <string name="email">ईमेल</string>
+    <string name="done">किया हुआ</string>
+    <string name="purchase">खरीद फरोख्त</string>
+
+    <string name="college_name">कॉलेज का नाम</string>
+    <string name="profession">व्यवसाय</string>
+    <string name="birthdate">जन्म दिन</string>
+    <string name="hours">घंटे</string>
+    <string name="minutes">मिनट</string>
+    <string name="date">तारीख</string>
+    <string name="time">पहर</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="female">महिला</string>
+    <string name="male">नर</string>
+    <string name="mutual_friends">परस्पर मित्र</string>
+    <string name="privacy">मैं नियम और समझौतों और गोपनीयता नीति से सहमत हूं </string>
+    <string name="drawer_open">खुला</string>
+    <string name="drawer_close">बंद करे</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="logout">लोग आउट</string>
+    <string name="view_store">दुकान देखे</string>
+    <string name="view_detail">विस्तार से देखें</string>
+    <string name="hint_ok">ठीक</string>
+    <string name="hint_cancel">रद्द करना</string>
+    <string name="search">खोज</string>
+    <string name="no_match_found">कोई मित्र आपकी वरीयताओं से मेल खाता है !!</string>
+
+
+    <string name="enter_email_address">ईमेल पता दर्ज</string>
+    <string name="valid_password">पासवर्ड 6 वर्ण होना चाहिए</string>
+    <string name="enter_password">पास वर्ड दर्ज करें</string>
+    <string name="enter_confirm_password">पासवर्ड की पुष्टि दर्ज करें</string>
+    <string name="enter_collage_name">कोलाज नाम दर्ज करें</string>
+    <string name="enter_profession">पेशे दर्ज करें</string>
+    <string name="enter_birthday">जन्म तिथि दर्ज करें</string>
+    <string name="no_internet_available">इंटरनेट उपलब्ध नहीं है, अपनी इंटरनेट कनेक्टिविटी जांचें और पुनः प्रयास करें</string>
+    <string name="password_and_confirm_password_not_matched">पासवर्ड और पासवर्ड की पुष्टि मेल नहीं खाती है</string>
+    <string name="enter_valid_email_address">मान्य ईमेल पता दर्ज करें</string>
+    <string name="enter_username">उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="enter_proper_detail">कृपया, उचित विवरण दर्ज करें</string>
+    <string name="something_went_wrong">कुछ गलत हो गया</string>
+    <string name="enter_name">नाम दर्ज</string>
+    <string name="enter_firstname">पहला नाम डालो</string>
+    <string name="enter_lastname">अंतिम नाम दर्ज करो</string>
+    <string name="enter_subject">विषय दर्ज करें</string>
+    <string name="enter_message">संदेश दर्ज करें</string>
+    <string name="enter_contact_number">संपर्क संख्या दर्ज करें</string>
+    <string name="message_sent_successfully">संदेश सफलतापूर्वक भेजा जा चुका है</string>
+    <string name="something_went_wrong_try_after_somtime">कुछ गलत हो गया \n कुछ समय बाद कोशिश करें</string>
+
+    <string name="selectimage">छवि उठाओ</string>
+    <string name="first_name">पहला नाम</string>
+    <string name="last_name">अंतिम नाम</string>
+
+    <string name="agree_to_terms_and_privacy">मैं नियम और समझौतों और गोपनीयता नीति से सहमत हूं</string>
+    <string name="choose_lagnuage">भाषा चुनें</string>
+    <string name="accept_terms_and_condition">नियम और शर्त और गोपनीयता नीति स्वीकार करें</string>
+    <string name="send_varification_code">सत्यापन कोड आपके ईमेल पते पर भेज दिया जाता है</string>
+    <string name="meet_cool_people_around_you">अपने आस-पास के शांत लोगों से मिलें</string>
+    <string name="answer_long">आपका जवाब बहुत लंबा है। अधिकतम 100 वर्ण वाले उत्तर दर्ज करें</string>
+
+    <string name="see_user_profile">उपयोगकर्ता प्रोफ़ाइल देखने के लिए इस क्षेत्र में टैप करें</string>
+    <string name="see_upper_ofile">छवि स्क्रॉल करने के लिए ऊपरी मध्य क्षेत्र टैप करें</string>
+    <string name="see_lower_profile">छवि स्क्रॉल करने के लिए निचले मध्य क्षेत्र को टैप करें</string>
+
+    <string name="date_preference">तिथि प्राथमिकता</string>
+    <string name="date_preference_lower">तिथि प्राथमिकताएं</string>
+    <string name="upload_photos">तस्वीरें अपलोड करें</string>
+    <string name="update">अद्यतन करें</string>
+    <string name="import_text">आयात</string>
+    <string name="notification">अधिसूचना</string>
+
+    <string name="height">ऊंचाई</string>
+    <string name="next">आगामी</string>
+    <string name="religion">धर्म</string>
+    <string name="ethnicity">जातीयता</string>
+    <string name="quote">उद्धरण</string>
+    <string name="kids">बच्चे</string>
+    <string name="none">कोई नहीं</string>
+    <string name="one_day">एक दिन</string>
+    <string name="i_dont_want_kids">मुझे कोई बच्चा नहीं चाहिए</string>
+    <string name="always_visible">सदैव दृश्य</string>
+    <string name="prefer_not_to_say">कोई फर्क नहीं पड़ता </string>
+
+    <string name="only_visible_to_matches">केवल मैचों के लिए दृश्यमान</string>
+    <string name="profiles_with_photos_responses">तस्वीरों के साथ प्रोफाइल 10 गुना प्रतिक्रिया मिलेगा।</string>
+
+    <string name="drag_arrange_prefered_dating_option">अपने पसंदीदा डेटिंग विकल्प को खींचें और व्यवस्थित करें</string>
+
+    <string name="coffee">काफ़ीहाउस</string>
+    <string name="drink">शराब</string>
+    <string name="food">खाने की दुकान</string>
+    <string name="fun">आनदं</string>
+
+    <string name="my_profile">मेरी प्रोफाइल</string>
+    <string name="my_preferance">मेरी प्राथिमिकता</string>
+    <string name="location">स्थान</string>
+    <string name="about_me">मेरे बारे में</string>
+    <string name="write_about_you">अपने बारे में लिखिए।</string>
+    <string name="tap_to_write_about_me">मेरे बारे में लिखने के लिए टैप करें</string>
+
+    <string name="intrested_in">में घुसपैठ</string>
+    <string name="age_preferences">आयु प्राथमिकताएं</string>
+    <string name="distance_preferences">दूरी प्राथमिकताएं (miles)</string>
+
+    <string name="lessthenmileaway">मील से कम दूर</string>
+    <string name="kaushalparmar">कौश परमार</string>
+
+    <string name="its_a_match">यह एक मेल है!</string>
+    <string name="keep_playing">खेलते रहो</string>
+    <string name="send_a_message">एक संदेश भेजें</string>
+    <string name="like_each_other">एक दुसरे के जैसे</string>
+
+    <string name="photos">तस्वीरें</string>
+    <string name="gender">लिंग</string>
+    <string name="settings">सेटिंग्स</string>
+
+    <string name="last_seen">अंतिम बार देखा गया</string>
+    <string name="chat">बातचीत</string>
+    <string name="do_chat">चैट करो</string>
+    <string name="gallery">गेलरी</string>
+    <string name="fb_images">फेसबुक छवियां</string>
+    <string name="not_getting_device_token">डिवाइस टोकन नहीं मिल रहा है</string>
+
+    <string name="start_playing">खेलना शुरू करें</string>
+    <string name="setting">सेटिंग</string>
+    <string name="remove_ads">विज्ञापन हटाएँ</string>
+    <string name="all_ads_Removed">सभी विज्ञापन आपके आवेदन से हटा दिए जाएंगे।</string>
+    <string name="type_your_message">अपना संदेश टाइप करें..</string>
+
+    <string name="cafe_near_by_you">आप के पास कैफे</string>
+    <string name="bar_near_by_you">आपके पास बार</string>
+    <string name="beach_near_by_you">आप के पास समुद्र तट</string>
+    <string name="restaurant_near_by_you">आप के पास रेस्तरां</string>
+
+    <string name="set_date">तारीख सेट करें</string>
+    <string name="select_date_and_time">दिनांक और समय का चयन करें</string>
+    <string name="set_date_and_time">दिनांक और समय सेट करें</string>
+    <string name="save">बचाना</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="basics">मूल बातें</string>
+    <string name="instagram_images">Instagram छवियाँ</string>
+    <string name="instagram_not_connected">Instagram कनेक्ट नहीं है</string>
+    <string name="connect_to_instagram">Instagram से कनेक्ट करें</string>
+
+    <string name="date_request">तिथि अनुरोध</string>
+    <string name="accept">स्वीकार करना</string>
+    <string name="decline">पतन</string>
+    <string name="messge_from_admin">व्यवस्थापक से संदेश</string>
+
+    <string name="blocked">अवरोधित</string>
+
+    <string name="blocked_by_admin_of_cupidlove">आप CupidLove के व्यवस्थापक द्वारा अवरुद्ध कर दिया गया है। \n अनब्लॉकिंग के लिए व्यवस्थापक से संपर्क करें।</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="dont_have_messages_yet">आपके पास अभी तक कोई संदेश नहीं है! लोगों के साथ बातचीत शुरू करने के लिए, पहले प्रोफाइल से मेल खाते हैं।</string>
+    <string name="dont_have_notification_yet">आपके पास अभी तक कोई सूचना नहीं है! पहले प्रोफाइल से मेल खाते हैं।</string>
+
+    <string name="info_updated_successfully">सूचना सफलतापूर्वक अपडेट की गई है।</string>
+    <string name="allow_permission_to_access_camera">अपने कैमरे तक पहुंचने की अनुमति दें</string>
+    <string name="allow_permission_to_access_gallery">अपनी गैलरी तक पहुंचने की अनुमति दें</string>
+
+    <string name="selected_date_isnot_prorer">चयनित दिनांक उचित नहीं है। भविष्य की तारीख का चयन करें।</string>
+    <string name="selected_date_time_isnot_prorer">चयनित तिथि और समय उचित नहीं है। भविष्य की तारीख और समय का चयन करें।</string>
+    <string name="send_date_request">तिथि अनुरोध भेजें</string>
+    <string name="block_user">क्या आप इस उपयोगकर्ता को अवरुद्ध करना चाहते हैं?</string>
+    <string name="unmatch_user">क्या आप इस उपयोगकर्ता को अनमैच करना चाहते हैं?</string>
+    <string name="report_user">क्या आप इस उपयोगकर्ता की रिपोर्ट करना चाहते हैं?</string>
+    <string name="google_service">कोई Google सेवा उपलब्ध नहीं है</string>
+    <string name="discovery_preferance">डिस्कवरी वरीयता</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">हैलो रिक्त टुकड़ा</string>
+
+    <string name="demo_min_label">मिन</string>
+    <string name="demo_max_label">मैक्स</string>
+    <string name="click_on_arrows_for_next_and_previous_question">अगले और पिछले प्रश्न के लिए तीरों पर क्लिक करें</string>
+    <string name="quotes">उद्धरण दर्ज करें कृपया</string>
+    <string name="last_photo">पिछली तस्वीर</string>
+    <string name="next_photo">अगला फोटो</string>
+    <string name="tap_in_this_area_to_see_user_profile">उपयोगकर्ता प्रोफ़ाइल देखने के लिए इस क्षेत्र में टैप करें</string>
+    <string name="enter_varification_code">सत्यापन कोड दर्ज करें</string>
+    <string name="varification_code">पुष्टि संख्या</string>
+    <string name="select_ethnicity">कृपया अपनी नस्ल का चयन करें</string>
+    <string name="select_religion">कृपया अपना धर्म चुनें</string>
+    <string name="description">मेरे बारे में आपका विवरण बहुत लंबा है। मेरे बारे में अधिकतम 500 वर्ण वाले विवरण दर्ज करें</string>
+
+    <string name="crop__pick_error">कोई छवि स्रोत उपलब्ध नहीं है</string>
+    <string name="crop__saving">तस्वीर सहेजा जा रहा है ...</string>
+    <string name="crop__wait">कृपया प्रतीक्षा करें…</string>
+    <string name="submit">जमा करें</string>
+    <string name="open_profile">प्रोफाइल खोलें</string>
+</resources>

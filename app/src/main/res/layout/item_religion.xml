@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/value_1"
+    android:orientation="vertical">
+
+    <com.example.cupidlove.customview.textview.TextViewRegular
+        android:id="@+id/tvTitle"
+        style="@style/txt_white_xmicro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/value_3"
+        android:paddingBottom="@dimen/value_3"
+        android:background="@color/transparent_white"
+        android:text="@string/always_visible" />
+
+</LinearLayout>

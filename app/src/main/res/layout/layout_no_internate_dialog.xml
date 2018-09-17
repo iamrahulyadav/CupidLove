@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/value_10"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="@dimen/value_40"
+                android:layout_height="@dimen/value_30"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/value_10"
+                android:background="@drawable/nointernet"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/value_5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.example.cupidlove.customview.textview.TextViewRegular
+                    android:textColor="@color/dialog_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="OOOPS!" />
+
+                <com.example.cupidlove.customview.textview.TextViewRegular
+                    android:textColor="@color/gray_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="No Internet Connection Found Check Your Network" />
+            </LinearLayout>
+
+
+
+
+
+        <com.example.cupidlove.customview.textview.TextViewRegular
+            android:id="@+id/ivDismiss"
+            style="@style/txt_white_big"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/email_btn_bg"
+            android:layout_marginTop="@dimen/value_5"
+            android:paddingTop="@dimen/value_5"
+            android:paddingBottom="@dimen/value_5"
+            android:text="Dismiss"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

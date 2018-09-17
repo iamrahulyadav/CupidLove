@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/value_5"
+    android:layout_marginRight="@dimen/value_5"
+    android:layout_marginStart="@dimen/value_5"
+    android:layout_marginEnd="@dimen/value_5"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="@dimen/value_10"
+        android:background="@color/gray_table">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivBackDateDialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/value_6"
+                        app:srcCompat="@drawable/ic_back_arrow" />
+
+                    <com.example.cupidlove.customview.textview.TextViewRegular
+                        android:id="@+id/tvDialogDateTitle"
+                        style="@style/txt_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/set_date" />
+
+                    <ImageView
+                        android:id="@+id/ivCancelDateDialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:padding="@dimen/value_6"
+                        app:srcCompat="@drawable/ic_cancel_black" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bottom_round"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/value_10"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            app:srcCompat="@drawable/ic_triangle" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_5"
+                            android:layout_marginStart="@dimen/value_5"
+                            android:layout_marginRight="@dimen/value_5"
+                            android:layout_marginEnd="@dimen/value_5"
+                            android:layout_marginTop="@dimen/value_8"
+                            android:background="@drawable/round_corner_black">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/value_8"
+                                    android:layout_marginRight="@dimen/value_8"
+                                    android:layout_marginStart="@dimen/value_8"
+                                    android:layout_marginEnd="@dimen/value_8"
+                                    android:layout_marginTop="@dimen/value_10"
+                                    android:background="@color/black"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:gravity="center"
+                                        android:background="@color/gray_dark"
+                                        android:id="@+id/lldate"
+                                        android:layout_weight="0.5">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            app:srcCompat="@drawable/ic_calendar"
+                                            android:layout_marginRight="@dimen/value_5"
+                                            android:layout_marginLeft="@dimen/value_5"
+                                            android:layout_marginEnd="@dimen/value_5"
+                                            android:layout_marginStart="@dimen/value_5"
+                                            android:layout_marginTop="@dimen/value_5"
+                                            android:layout_marginBottom="@dimen/value_5"/>
+
+                                        <com.example.cupidlove.customview.textview.TextViewRegular
+                                            android:id="@+id/tvDate"
+                                            style="@style/txt_white_medium"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="@string/date" />
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_width="@dimen/value_1"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/black_strok" />
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:id="@+id/lltime2"
+                                        android:gravity="center"
+                                        android:layout_weight="0.5">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            app:srcCompat="@drawable/ic_clock"
+                                            android:layout_marginLeft="@dimen/value_5"
+                                            android:layout_marginRight="@dimen/value_5"
+                                            android:layout_marginStart="@dimen/value_5"
+                                            android:layout_marginEnd="@dimen/value_5"
+                                            android:layout_marginBottom="@dimen/value_5"
+                                            android:layout_marginTop="@dimen/value_5"/>
+
+                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                        android:id="@+id/tvTime"
+                                        style="@style/txt_white_medium"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/time" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.9"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/llCalendar"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:visibility="gone"
+                                        android:orientation="vertical">
+
+                                        <CalendarView
+                                            android:id="@+id/calendar"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@color/black_strok"
+                                            android:dateTextAppearance="@style/CalenderViewDateCustomText"
+                                            android:theme="@style/CalenderViewCustom"
+                                            android:unfocusedMonthDateColor="@color/black"
+                                            android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
+                                            android:weekNumberColor="@color/white"
+                                            android:weekSeparatorLineColor="@color/white" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/llTime"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="@dimen/value_10"
+                                            android:orientation="horizontal">
+
+                                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                                android:id="@+id/etHour"
+                                                style="@style/txt_white_small"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:background="@color/black"
+                                                android:enabled="false"
+                                                android:hint="HH"
+                                                android:padding="@dimen/value_5" />
+
+                                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                                style="@style/txt_white_small"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:padding="@dimen/value_3"
+                                                android:text=":" />
+
+                                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                                android:id="@+id/etMinute"
+                                                style="@style/txt_white_small"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:background="@color/black"
+                                                android:enabled="false"
+                                                android:hint="MM"
+                                                android:padding="@dimen/value_5" />
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="@dimen/value_10"
+                                            android:layout_weight="0.9"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="0.5"
+                                                android:orientation="vertical">
+
+                                                <LinearLayout
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:orientation="horizontal">
+
+                                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginLeft="@dimen/value_5"
+                                                        android:text="@string/hours"
+                                                        android:textColor="@color/gray_dark"
+                                                        android:layout_marginStart="@dimen/value_5" />
+
+                                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:gravity="center"
+                                                        android:padding="@dimen/value_3"
+                                                        android:text=":"
+                                                        android:textColor="@color/gray_dark" />
+
+                                                </LinearLayout>
+
+                                                <FrameLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <com.example.cupidlove.customview.seekbar.RangeSeekBar
+                                                        android:id="@+id/seekbarHour"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_gravity="center"
+                                                        android:layout_marginLeft="@dimen/value_8"
+                                                        android:layout_marginRight="@dimen/value_8"
+                                                        android:layout_marginStart="@dimen/value_8"
+                                                        android:layout_marginEnd="@dimen/value_8"
+                                                        app:absoluteMaxValue="12"
+                                                        app:absoluteMinValue="0"
+                                                        app:activeColor="@color/colorPrimary"
+                                                        app:barHeight="5dp"
+                                                        app:defaultColor="#cfcece"
+                                                        app:internalPadding="3dp"
+                                                        app:showLabels="false"
+                                                        app:singleThumb="true"
+                                                        app:step="1"
+                                                        app:textAboveThumbsColor="@color/white"
+                                                        app:thumbDisabled="@drawable/seekbar_handle"
+                                                        app:thumbNormal="@drawable/seekbar_handle"
+                                                        app:thumbPressed="@drawable/seekbar_handle"
+                                                        app:thumbShadowBlur="3dp"
+                                                        app:thumbShadowColor="#cfcece"
+                                                        app:thumbShadowXOffset="1dp"
+                                                        app:thumbShadowYOffset="2dp"
+                                                        app:valuesAboveThumbs="false"  />
+                                                </FrameLayout>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="0.5"
+                                                android:orientation="vertical">
+
+                                                <LinearLayout
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:orientation="horizontal">
+
+                                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginLeft="@dimen/value_5"
+                                                        android:layout_marginStart="@dimen/value_5"
+                                                        android:text="@string/minutes"
+                                                        android:textColor="@color/gray_dark" />
+
+                                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:gravity="center"
+                                                        android:padding="@dimen/value_3"
+                                                        android:text=":"
+                                                        android:textColor="@color/gray_dark" />
+
+                                                </LinearLayout>
+
+                                                <FrameLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <com.example.cupidlove.customview.seekbar.RangeSeekBar
+                                                        android:id="@+id/seekbarMinute"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_gravity="center"
+                                                        android:layout_marginLeft="@dimen/value_8"
+                                                        android:layout_marginRight="@dimen/value_8"
+                                                        android:layout_marginStart="@dimen/value_8"
+                                                        android:layout_marginEnd="@dimen/value_8"
+                                                        app:absoluteMaxValue="60"
+                                                        app:absoluteMinValue="0"
+                                                        app:activeColor="@color/colorPrimary"
+                                                        app:barHeight="5dp"
+                                                        app:defaultColor="#cfcece"
+                                                        app:internalPadding="3dp"
+                                                        app:showLabels="false"
+                                                        app:singleThumb="true"
+                                                        app:step="1"
+                                                        app:textAboveThumbsColor="@color/white"
+                                                        app:thumbDisabled="@drawable/seekbar_handle"
+                                                        app:thumbNormal="@drawable/seekbar_handle"
+                                                        app:thumbPressed="@drawable/seekbar_handle"
+                                                        app:thumbShadowBlur="3dp"
+                                                        app:thumbShadowColor="#cfcece"
+                                                        app:thumbShadowXOffset="1dp"
+                                                        app:thumbShadowYOffset="2dp"
+                                                        app:valuesAboveThumbs="false" />
+                                                </FrameLayout>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginBottom="@dimen/value_8"
+                                            android:orientation="horizontal">
+
+                                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginRight="@dimen/value_5"
+                                                android:layout_marginEnd="@dimen/value_5"
+                                                android:text="@string/am"
+                                                android:textColor="@color/gray_dark" />
+
+                                            <Switch
+                                                android:id="@+id/switchAmPm"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:backgroundTint="@color/gray_dark"
+                                                android:thumbTint="@color/white" />
+
+                                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="@dimen/value_5"
+                                                android:layout_marginStart="@dimen/value_5"
+                                                android:text="@string/pm"
+                                                android:textColor="@color/gray_dark" />
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <com.example.cupidlove.customview.textview.TextViewRegular
+                                        android:id="@+id/tvSave"
+                                        style="@style/txt_white_medium"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="@dimen/value_5"
+                                        android:layout_marginLeft="@dimen/value_5"
+                                        android:layout_marginRight="@dimen/value_5"
+                                        android:layout_marginStart="@dimen/value_5"
+                                        android:layout_marginEnd="@dimen/value_5"
+                                        android:layout_marginTop="@dimen/value_5"
+                                        android:background="@drawable/email_btn_bg"
+                                        android:gravity="center"
+                                        android:paddingBottom="@dimen/value_4"
+                                        android:paddingTop="@dimen/value_4"
+                                        android:text="@string/save" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

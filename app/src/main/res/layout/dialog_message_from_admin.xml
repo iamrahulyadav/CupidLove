@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/value_8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_30"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/value_150"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/splash_image" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/value_150"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.9"
+                        android:orientation="vertical">
+
+                        <com.example.cupidlove.customview.textview.TextViewRegular
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/value_40"
+                            android:gravity="center"
+                            android:text="@string/messge_from_admin"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/font_12" />
+
+                        <android.support.v4.widget.NestedScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/value_4"
+                            android:layout_marginBottom="@dimen/value_4">
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                style="@style/txt_white_small"
+                                android:id="@+id/tvMessageFromAdmin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/value_5"
+                                android:padding="@dimen/value_3"
+                                android:gravity="center"
+                                android:text="Message from admin that you can get this kind of message when admin will send you any notification from his end. Message from admin that you can get this kind of message when admin will send you any notification from his end. Message from admin that you can get this kind of message when admin will send you any notification from his end. Message from admin that you can get this kind of message when admin will send you any notification from his end. Message from admin that you can get this kind of message when admin will send you any notification from his end. Message from admin that you can get this kind of message when admin will send you any notification from his end." />
+                        </android.support.v4.widget.NestedScrollView>
+                    </LinearLayout>
+
+                    <com.example.cupidlove.customview.textview.TextViewRegular
+                        android:id="@+id/tvAdminOk"
+                        style="@style/txt_white_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/font_10"
+                        android:background="@drawable/email_btn_bg"
+                        android:text="@string/hint_ok"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/value_60"
+                    android:layout_height="@dimen/value_60"
+                    android:layout_gravity="center"
+                    android:src="@drawable/side_menu_logo" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

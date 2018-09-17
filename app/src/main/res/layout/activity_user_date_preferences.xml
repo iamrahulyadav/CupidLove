@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_header_home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_image"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_8"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_information_icon" />
+
+                <com.example.cupidlove.customview.textview.TextViewRegular
+                    style="@style/txt_white_micro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/drag_arrange_prefered_dating_option" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/value_8"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_marginEnd="@dimen/value_3">
+
+                            <FrameLayout
+                                android:id="@+id/flOne"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_dotted_circle" />
+
+                                <ImageView
+                                    android:id="@+id/ivtmpOne"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    app:srcCompat="@drawable/one_small" />
+
+                                <ImageView
+                                    android:id="@+id/civOne"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </FrameLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvOne"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text=""
+                                android:visibility="invisible" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3">
+
+                            <FrameLayout
+                                android:id="@+id/flTwo"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_dotted_circle" />
+
+                                <ImageView
+                                    android:id="@+id/ivtmpTwo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    app:srcCompat="@drawable/two" />
+
+                                <ImageView
+                                    android:id="@+id/civTwo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </FrameLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvTwo"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text=""
+                                android:visibility="invisible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3">
+
+                            <FrameLayout
+                                android:id="@+id/flThree"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_dotted_circle" />
+
+                                <ImageView
+                                    android:id="@+id/ivtmpThree"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    app:srcCompat="@drawable/three" />
+
+                                <ImageView
+                                    android:id="@+id/civThree"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </FrameLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvThree"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text=""
+                                android:visibility="invisible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:id="@+id/flFour"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_dotted_circle" />
+
+                                <ImageView
+                                    android:id="@+id/ivtmpFour"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    app:srcCompat="@drawable/four" />
+
+                                <ImageView
+                                    android:id="@+id/civFour"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </FrameLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvFour"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text=""
+                                android:visibility="invisible" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/value_8"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:id="@+id/civCoffee"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/ic_coffee" />
+                            </LinearLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvCoffee"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text="@string/coffee" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:id="@+id/civDrink"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/ic_drink" />
+                            </LinearLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvDrink"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text="@string/drink" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:id="@+id/civFood"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/ic_food" />
+                            </LinearLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvFood"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text="@string/food" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/value_3"
+                            android:layout_marginRight="@dimen/value_3"
+                            android:layout_marginStart="@dimen/value_3"
+                            android:layout_marginEnd="@dimen/value_3"
+                            android:layout_weight="0.25"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8">
+
+                                <ImageView
+                                    android:id="@+id/civFun"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/ic_fun" />
+                            </LinearLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvFun"
+                                style="@style/txt_white_medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/value_5"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text="@string/fun" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/value_5"
+                android:paddingRight="@dimen/value_5"
+                android:paddingTop="@dimen/value_3"
+                android:paddingEnd="@dimen/value_5"
+                android:paddingStart="@dimen/value_5">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.cupidlove.customview.textview.TextViewRegular
+                        style="@style/txt_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_me" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/value_1"
+                        android:background="@color/white" />
+                </LinearLayout>
+
+                <com.example.cupidlove.customview.edittext.EditTextRegular
+                    android:id="@+id/etAboutMe"
+                    style="@style/txt_white_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/value_5"
+                    android:layout_marginTop="@dimen/value_10"
+                    android:background="@color/transparent_white"
+                    android:gravity="start"
+                    android:hint="@string/tap_to_write_about_me"
+                    android:padding="@dimen/value_5" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                android:id="@+id/tvDone"
+                style="@style/txt_white_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/value_10"
+                android:layout_marginTop="@dimen/value_10"
+                android:background="@drawable/email_btn_bg"
+                android:gravity="center"
+                android:padding="@dimen/value_10"
+                android:text="@string/done" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

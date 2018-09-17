@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="@dimen/value_15"
+            android:layout_height="@dimen/value_15"
+            android:layout_gravity="center"
+            android:progressTint="@color/white"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/img_report_user"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_username"
+        android:layout_alignParentEnd="true" />
+    <!--<com.github.siyamed.shapeimageview.RoundedImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/image_view"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--app:siRadius="30dp"-->
+    <!--app:siSquare="true"-->
+    <!--/>-->
+    <LinearLayout
+        android:id="@+id/llDots"
+        android:layout_width="@dimen/value_15"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:id="@+id/layoutDots"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

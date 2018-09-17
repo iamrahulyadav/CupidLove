@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.example.cupidlove.customview.textview.TextViewRegular
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/value_5"
+        android:background="@drawable/round_corner_button"
+        android:paddingBottom="@dimen/value_2"
+        android:paddingLeft="@dimen/value_15"
+        android:paddingRight="@dimen/value_15"
+        android:paddingTop="@dimen/value_2"
+        android:text="Today"
+        android:paddingEnd="@dimen/value_15"
+        android:paddingStart="@dimen/value_15" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@drawable/splash_image"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/value_4"
+            android:layout_marginBottom="@dimen/value_4">
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                style="@style/txt_white_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mutual_friends"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/value_1"
+                android:background="@color/orange"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMutualFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/value_10"
+            android:layout_marginLeft="@dimen/value_5"
+            android:layout_marginRight="@dimen/value_5"
+            android:layout_marginStart="@dimen/value_5"
+            android:layout_marginEnd="@dimen/value_5"
+            android:layout_marginTop="@dimen/value_10">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

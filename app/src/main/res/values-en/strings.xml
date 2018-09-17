@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">CupidLove</string>
+    <string name="facebook_app_id">Facebook App id</string>
+    <string name="fb_login_protocol_scheme">fb(Facebook App id)</string>
+
+    <string name="answer_of_question">Please Give any Answer Of Question</string>
+    <string name="select_one_image">You can only select 1 images from gallery.</string>
+    <string name="select_six_image">You can only select 6 images from gallery.</string>
+    <string name="select_any_image">Select any Image</string>
+    <string name="special_char_not_allowed">Special Character Not Allowed</string>
+
+    <string name="footer">\@CupidLove 2018 | All rights reserved</string>
+
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_canceled">Facebook login is Canceled.</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="tap_to_change">Tap To Photo To Change</string>
+    <string name="no_inrenate_connection">No Internet Connection</string>
+    <string name="there_was_an_error_communicating_with_cupidlove_please_contact_customer_service">There was an error communicating. Please contact \n  customer service.</string>
+    <string name="we_had_trouble_trying_to_connect_please_try_again_when_your_connection_signal_is_stronge">We had trouble trying to connect. \n Please try again when your \n connection signal is strong</string>
+
+
+    <string name="already_have_an_Account">Already have an account? Tap to Login</string>
+    <string name="offline">Offline</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="user_name">UserName</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?Tap to SignUp</string>
+    <string name="email">Email</string>
+    <string name="done">DONE</string>
+    <string name="purchase">Purchase</string>
+
+    <string name="college_name">College Name</string>
+    <string name="profession">Profession</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="mutual_friends">Mutual Friends</string>
+    <string name="privacy">I agree to the Terms &amp; Agreements and Privacy Policy </string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="view_store">View Store</string>
+    <string name="view_detail">View Detail</string>
+    <string name="hint_ok">OK</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="no_match_found">No Friend matches your preferences !!</string>
+
+
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="valid_password">Password Must Be 6 Characters</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="enter_collage_name">Enter Collage Name</string>
+    <string name="enter_profession">Enter Profession</string>
+    <string name="enter_birthday">Enter Birthdate</string>
+    <string name="no_internet_available">Internet not available, Cross check your internet connectivity and try again</string>
+    <string name="password_and_confirm_password_not_matched">Password and Confirm Password does not matched</string>
+    <string name="enter_valid_email_address">Enter Valid Email Address</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_proper_detail">Please, Enter proper detail</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_firstname">Enter First Name</string>
+    <string name="enter_lastname">Enter Last Name</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="message_sent_successfully">Message sent Successfully</string>
+    <string name="something_went_wrong_try_after_somtime">Something went wrong \n Try after sometime</string>
+
+    <string name="coupon_code_is_copied_to_clipboard">Coupon code is Copied to Clipboard</string>
+
+    <string name="delivered_soon">Delivered Soon</string>
+    <string name="order_is_in_pending_state">Order is in Pending State</string>
+    <string name="order_is_under_processing">Order is Under Processing</string>
+    <string name="order_is_on_hold">Order is On-Hold</string>
+    <string name="delivered">Order is On-Hold</string>
+    <string name="order_is_cancelled">Order is Cancelled</string>
+    <string name="you_are_refunded_for_this_order">You are refunded for this order</string>
+    <string name="order_is_failed">Order is Failed</string>
+
+    <string name="selectimage">Pick Image</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="agree_to_terms_and_privacy">I agree to the Terms &amp; Agreements and Privacy Policy</string>
+    <string name="choose_lagnuage">Choose Langauge</string>
+    <string name="accept_terms_and_condition">Accept Terms &amp; Condition and Privacy Policy</string>
+    <string name="send_varification_code">Verification Code is send to your email address</string>
+    <string name="meet_cool_people_around_you">Meet Cool people around you</string>
+    <string name="answer_long">Your answer is too long. Enter Answer containing maximum 100 character</string>
+
+    <string name="see_user_profile">Tap in this area to see user profile</string>
+    <string name="see_upper_ofile">Tap Upper middle area to scroll image</string>
+    <string name="see_lower_profile">Tap lower middle area to scroll image</string>
+
+    <string name="date_preference">DATE PREFERENCE</string>
+    <string name="date_preference_lower">Date Preferences</string>
+    <string name="upload_photos">UPLOAD PHOTOS</string>
+    <string name="update">Update</string>
+    <string name="import_text">Import</string>
+    <string name="notification">Notification</string>
+
+    <string name="height">Height</string>
+    <string name="next">NEXT</string>
+    <string name="religion">Religion</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="quote">Quote</string>
+    <string name="kids">Kids</string>
+    <string name="none">None</string>
+    <string name="one_day">One Day</string>
+    <string name="i_dont_want_kids">I donot want kids</string>
+    <string name="always_visible">Always visible</string>
+    <string name="prefer_not_to_say">Doesn\'t matter </string>
+
+    <string name="only_visible_to_matches">Only visible to matches</string>
+    <string name="profiles_with_photos_responses">Profiles with photos get 10 times \n as many responses.</string>
+
+    <string name="drag_arrange_prefered_dating_option">Drag &amp; arrange your preferred dating option</string>
+
+    <string name="coffee">Cafe</string>
+    <string name="drink">Bar</string>
+    <string name="food">Hotel</string>
+    <string name="fun">Joy</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="my_preferance">My Preference</string>
+    <string name="location">Location</string>
+    <string name="about_me">About Me</string>
+    <string name="write_about_you">Write about you.</string>
+    <string name="tap_to_write_about_me">Tap to write about me</string>
+
+    <string name="intrested_in">Intrested In</string>
+    <string name="age_preferences">Age Preferences</string>
+    <string name="distance_preferences">Distance Preferences (miles)</string>
+
+    <string name="lessthenmileaway">Less then mile away</string>
+    <string name="kaushalparmar">Kaush Parmar</string>
+
+    <string name="its_a_match">It\'s a Match!</string>
+    <string name="keep_playing">KEEP PLAYING</string>
+    <string name="send_a_message">SEND A MESSAGE</string>
+    <string name="like_each_other">like each other</string>
+
+    <string name="photos">Photos</string>
+    <string name="gender">Gender</string>
+    <string name="settings">Settings</string>
+
+    <string name="last_seen">Last Seen</string>
+    <string name="chat">Chat</string>
+    <string name="do_chat">Do Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="fb_images">Facebook Images</string>
+    <string name="not_getting_device_token">Not getting Device token</string>
+
+    <string name="start_playing">Start Playing</string>
+    <string name="setting">Setting</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="all_ads_Removed">All Ads will be removed from your application.</string>
+    <string name="type_your_message">Type your message..</string>
+
+    <string name="cafe_near_by_you">Cafe Near By You</string>
+    <string name="bar_near_by_you">Bar Near By You</string>
+    <string name="beach_near_by_you">Beach Near By You</string>
+    <string name="restaurant_near_by_you">Restaurant Near By You</string>
+
+    <string name="set_date">Set Date</string>
+    <string name="select_date_and_time">Select DATE and TIME</string>
+    <string name="set_date_and_time">Set DATE and TIME</string>
+    <string name="save">Save</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="basics">Basics</string>
+    <string name="instagram_images">Instagram Images</string>
+    <string name="instagram_not_connected">Instagram not connected</string>
+    <string name="connect_to_instagram">Connect to Instagram</string>
+
+    <string name="date_request">Date Request</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="messge_from_admin">Message From Admin</string>
+
+    <string name="blocked">Blocked</string>
+
+    <string name="blocked_by_admin_of_cupidlove">You have been Blocked by the ADMIN of CupidLove.\n Please Contact Admin for Unblocking.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="dont_have_messages_yet">You don\'t have any message yet! To begin conversation with people, First match the profiles.</string>
+    <string name="dont_have_notification_yet">You don\'t have any notification yet! First match the profiles.</string>
+
+    <string name="info_updated_successfully">Information is updated successfully.</string>
+    <string name="allow_permission_to_access_camera">Allow permission to Access your Camera</string>
+    <string name="allow_permission_to_access_gallery">Allow permission to Access your Gallery</string>
+
+    <string name="selected_date_isnot_prorer">Selected DATE is not proper. Select future date.</string>
+    <string name="selected_date_time_isnot_prorer">Selected DATE and TIME is not proper. Select future date and time.</string>
+    <string name="send_date_request">Send Date Request</string>
+    <string name="block_user">Do You Want To Block This User?</string>
+    <string name="unmatch_user">Do You Want To Unmatch This User?</string>
+    <string name="report_user">Do You Want To Report This User?</string>
+    <string name="google_service">No Google Service is available</string>
+    <string name="discovery_preferance">Discovery Preference</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="click_on_arrows_for_next_and_previous_question">Click on Arrows for next and previous question</string>
+    <string name="quotes">Enter Quotes Please</string>
+    <string name="last_photo">LAST PHOTO</string>
+    <string name="next_photo">NEXT PHOTO</string>
+    <string name="tap_in_this_area_to_see_user_profile">Tap in this area to see user profile</string>
+    <string name="enter_varification_code">Enter verification Code</string>
+    <string name="varification_code">verification Code</string>
+    <string name="select_ethnicity">Please Select Your Ethnicity</string>
+    <string name="select_religion">Please Select Your Religion</string>
+    <string name="description">Your about me description is too long. Enter about me description containing maximum 500 character</string>
+
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="submit">Submit</string>
+    <string name="open_profile">OPEN PROFILE</string>
+</resources>

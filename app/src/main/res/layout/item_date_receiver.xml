@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llDateRequestRecieved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/value_5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvleft"
+                    android:layout_width="@dimen/value_8"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/value_8"
+                    android:layout_marginStart="@dimen/value_8"
+                    android:background="@drawable/left_corner_radius" />
+
+                <ImageView
+                    android:id="@+id/ivleft"
+                    android:layout_width="@dimen/value_8"
+                    android:layout_height="@dimen/value_8"
+                    android:layout_marginStart="@dimen/value_4"
+                    android:layout_marginLeft="@dimen/value_4"
+                    android:layout_marginTop="@dimen/value_4"
+                    android:src="@drawable/arrow_chat_left" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/value_145"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/value_10"
+                    android:layout_marginStart="@dimen/value_10"
+                    android:background="@drawable/round_corner_white_chat"
+                    android:orientation="vertical">
+
+                    <com.example.cupidlove.customview.textview.TextViewRegular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/value_2"
+                        android:gravity="center"
+                        android:text="@string/date_request" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/value_2"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvRandomColor"
+                            android:layout_width="@dimen/value_2"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/ivImage"
+                            android:layout_width="@dimen/value_30"
+                            android:layout_height="@dimen/value_40"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ic_no_photo" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/value_5"
+                            android:layout_marginStart="@dimen/value_5"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical">
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvPlaceTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:gravity="start"
+                                android:maxLines="1"
+                                android:text="@string/cafe_near_by_you" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/value_2"
+                                android:layout_marginTop="@dimen/value_2"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/ivStarOne"
+                                    android:layout_width="@dimen/value_5"
+                                    android:layout_height="@dimen/value_5"
+                                    app:srcCompat="@drawable/ic_star_blank" />
+
+                                <ImageView
+                                    android:id="@+id/ivStarTwo"
+                                    android:layout_width="@dimen/value_5"
+                                    android:layout_height="@dimen/value_5"
+                                    android:layout_marginLeft="@dimen/value_2"
+                                    android:layout_marginStart="@dimen/value_2"
+                                    app:srcCompat="@drawable/ic_star_blank" />
+
+                                <ImageView
+                                    android:id="@+id/ivStarThree"
+                                    android:layout_width="@dimen/value_5"
+                                    android:layout_height="@dimen/value_5"
+                                    android:layout_marginLeft="@dimen/value_2"
+                                    android:layout_marginStart="@dimen/value_2"
+                                    app:srcCompat="@drawable/ic_star_blank" />
+
+                                <ImageView
+                                    android:id="@+id/ivStarFour"
+                                    android:layout_width="@dimen/value_5"
+                                    android:layout_height="@dimen/value_5"
+                                    android:layout_marginLeft="@dimen/value_2"
+                                    android:layout_marginStart="@dimen/value_2"
+                                    app:srcCompat="@drawable/ic_star_blank" />
+
+                                <ImageView
+                                    android:id="@+id/ivStarFive"
+                                    android:layout_width="@dimen/value_5"
+                                    android:layout_height="@dimen/value_5"
+                                    android:layout_marginLeft="@dimen/value_2"
+                                    android:layout_marginStart="@dimen/value_2"
+                                    app:srcCompat="@drawable/ic_star_blank" />
+
+                            </LinearLayout>
+
+                            <com.example.cupidlove.customview.textview.TextViewRegular
+                                android:id="@+id/tvDistance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:text="" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/value_5"
+                            android:layout_marginEnd="@dimen/value_5"
+                            app:srcCompat="@drawable/ic_information" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/value_5"
+                        android:orientation="vertical">
+
+                        <com.example.cupidlove.customview.textview.TextViewRegular
+                            android:id="@+id/tvDateTime"
+                            style="@style/txt_white_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@color/black_strok"
+                            android:padding="@dimen/value_2"
+                            android:layout_marginBottom="@dimen/value_4"
+                            android:text="03/01/2018, 08:30 PM" />
+
+                        <LinearLayout
+                            android:id="@+id/llAcceptDecline"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/value_4"
+                            android:orientation="horizontal"
+                            android:visibility="visible"
+                           >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical">
+
+                                <com.example.cupidlove.customview.textview.TextViewRegular
+                                    android:id="@+id/tvAccept"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/green"
+                                    android:paddingBottom="@dimen/value_2"
+                                    android:paddingLeft="@dimen/value_5"
+                                    android:paddingRight="@dimen/value_5"
+                                    android:paddingTop="@dimen/value_2"
+                                    android:text="@string/accept"
+                                    android:paddingStart="@dimen/value_5"
+                                    android:paddingEnd="@dimen/value_5" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical">
+
+                                <com.example.cupidlove.customview.textview.TextViewRegular
+                                    android:id="@+id/tvDecline"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/light_orange"
+                                    android:paddingBottom="@dimen/value_2"
+                                    android:paddingLeft="@dimen/value_5"
+                                    android:paddingRight="@dimen/value_5"
+                                    android:paddingTop="@dimen/value_2"
+                                    android:text="@string/decline"
+                                    android:paddingEnd="@dimen/value_5"
+                                    android:paddingStart="@dimen/value_5" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <com.example.cupidlove.customview.textview.TextViewRegular
+            android:id="@+id/tvLastSeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/value_10"
+            android:layout_marginStart="@dimen/value_10"
+            android:layout_marginTop="@dimen/value_3"
+            android:textColor="@color/orange" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                android:id="@+id/tvNoMatchFound"
+                style="@style/txt_white_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/value_20"
+                android:layout_marginRight="@dimen/value_20"
+                android:gravity="center"
+                android:text="@string/no_match_found"
+                android:visibility="gone"
+                android:layout_marginStart="@dimen/value_20"
+                android:layout_marginEnd="@dimen/value_20" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.cupidlove.customview.swipedeck.SwipeDeck
+                    android:id="@+id/swipe_deck"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    swipedeck:card_spacing="5dp"
+                    swipedeck:max_visible="3"
+                    swipedeck:render_above="true"
+                    swipedeck:rotation_degrees="10" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/value_5"
+            android:layout_marginTop="@dimen/value_5"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="0.5"
+                android:gravity="end">
+
+                <ImageView
+                    android:id="@+id/llDislike"
+                    android:layout_width="@dimen/value_25"
+                    android:layout_height="@dimen/value_25"
+                    android:layout_marginRight="@dimen/value_10"
+                    android:orientation="vertical"
+                    app:srcCompat="@drawable/ic_cancel"
+                    android:layout_marginEnd="@dimen/value_10">
+
+                </ImageView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/llLike"
+                    android:layout_width="@dimen/value_25"
+                    android:layout_height="@dimen/value_25"
+                    android:layout_marginStart="@dimen/value_10"
+                    android:orientation="vertical"
+                    app:srcCompat="@drawable/ic_heart_like">
+
+                </ImageView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

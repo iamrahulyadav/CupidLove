@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/llMain"
+    android:orientation="vertical">
+
+    <com.example.cupidlove.customview.textview.TextViewRegular
+        android:id="@+id/tvTitle"
+        style="@style/txt_white_small"
+        android:layout_width="@dimen/value_30"
+        android:layout_height="@dimen/value_30"
+        android:background="@drawable/kids_border"
+        android:gravity="center"
+        android:text="1"/>
+
+</LinearLayout>

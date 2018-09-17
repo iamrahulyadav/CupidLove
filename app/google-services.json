@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750056941364",
+    "firebase_url": "https://cupidlove-19586.firebaseio.com",
+    "project_id": "cupidlove-19586",
+    "storage_bucket": "cupidlove-19586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750056941364:android:2b458d6afa2aae3f",
+        "android_client_info": {
+          "package_name": "com.example.cupidlove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750056941364-0hvah1pl9mjdul9jnlnqbi9l41hdj1t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cupidlove",
+            "certificate_hash": "f9d5812895a8d225084665d2d9827aad941846b6"
+          }
+        },
+        {
+          "client_id": "750056941364-8q7macvk5m69pmmgetbosjnf2a3u5ah5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgDJf-9JBy7K28FXeCVA7AvgKAum1zVvI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750056941364-8q7macvk5m69pmmgetbosjnf2a3u5ah5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

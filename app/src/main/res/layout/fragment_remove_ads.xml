@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:orientation="vertical">
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                style="@style/txt_white_small"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_ads_Removed"
+                android:padding="@dimen/value_30"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                android:id="@+id/tvPurchase"
+                style="@style/txt_white_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/email_btn_bg"
+                android:gravity="center"
+                android:paddingBottom="@dimen/value_8"
+                android:paddingTop="@dimen/value_8"
+                android:layout_marginBottom="@dimen/value_20"
+                android:text="@string/purchase" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

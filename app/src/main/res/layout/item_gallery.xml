@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/value_4"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/value_1"
+                android:src="@drawable/logo_cupid"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/ivImageSelected"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/value_1"
+                android:src="@drawable/selected_image_border"
+                android:visibility="gone"
+                android:background="@android:color/transparent" />
+
+            <com.example.cupidlove.customview.textview.TextViewRegular
+                android:id="@+id/tvNumber"
+                style="@style/txt_black_small"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="@dimen/value_2"
+                android:layout_marginRight="@dimen/value_2"
+                android:layout_marginEnd="@dimen/value_2"
+                android:layout_width="wrap_content"
+                android:background="@color/orange"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                android:padding="@dimen/value_2"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

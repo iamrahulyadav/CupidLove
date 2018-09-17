@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/value_10"
+        android:background="@drawable/header_bg"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.example.cupidlove.customview.textview.TextViewMedium
+            style="@style/txt_white_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_10"
+            android:gravity="center"
+            android:text="@string/varification_code" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_10"
+            android:layout_marginBottom="@dimen/value_10"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/TextLabel">
+
+            <com.example.cupidlove.customview.edittext.EditTextMedium
+                android:id="@+id/varificationcode"
+                style="@style/txt_white_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:lines="1"
+                android:hint="@string/enter_varification_code"
+                android:layout_marginLeft="@dimen/value_5"
+                android:layout_marginRight="@dimen/value_5"
+                android:layout_marginStart="@dimen/value_5"
+                android:layout_marginEnd="@dimen/value_5"
+                android:paddingBottom="@dimen/value_10"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:theme="@style/Theme.App.Base" />
+
+        </android.support.design.widget.TextInputLayout>
+        <com.example.cupidlove.customview.textview.TextViewRegular
+            android:id="@+id/sendvarification"
+            style="@style/txt_white_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/email_btn_bg"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/value_10"
+            android:paddingBottom="@dimen/value_5"
+            android:paddingTop="@dimen/value_5"
+            android:text="@string/hint_ok" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
